@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 OPR/112.0.0.0" version="24.7.14">
+  <diagram name="Página-1" id="2sxpvVSqErBeXv812kIl">
+    <mxGraphModel dx="839" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="10" width="320" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-2" value="Administrador&amp;nbsp;&lt;div&gt;do Sistema&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-6" value="Organizador&amp;nbsp;&lt;div&gt;de Eventos&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-7" value="Atleta" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-8" value="Sistema Externo&lt;div&gt;de Relatórios&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-9" value="Cadastrar&amp;nbsp;&lt;div&gt;competição&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-10" value="Inscrever atleta&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-11" value="Alocar local" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-12" value="Verificar disponibilidade de local" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-13" value="Registrar Resultado" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-14" value="Gerar relatório de medalhas" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="mnfsGZUZUVeKxlPdwvMC-2" target="mnfsGZUZUVeKxlPdwvMC-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="270" as="sourcePoint" />
+            <mxPoint x="440" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-20" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="mnfsGZUZUVeKxlPdwvMC-2" target="mnfsGZUZUVeKxlPdwvMC-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="137" as="sourcePoint" />
+            <mxPoint x="348" y="111" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-21" value="" style="endArrow=none;html=1;rounded=0;entryX=0.058;entryY=0.317;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mnfsGZUZUVeKxlPdwvMC-2" target="mnfsGZUZUVeKxlPdwvMC-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="147" as="sourcePoint" />
+            <mxPoint x="368" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-22" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" target="mnfsGZUZUVeKxlPdwvMC-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="330" as="sourcePoint" />
+            <mxPoint x="337" y="409" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mnfsGZUZUVeKxlPdwvMC-11" target="mnfsGZUZUVeKxlPdwvMC-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="300" as="sourcePoint" />
+            <mxPoint x="200" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-24" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="mnfsGZUZUVeKxlPdwvMC-10" target="mnfsGZUZUVeKxlPdwvMC-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="310" as="sourcePoint" />
+            <mxPoint x="210" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-25" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mnfsGZUZUVeKxlPdwvMC-9" target="mnfsGZUZUVeKxlPdwvMC-10" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="200" as="sourcePoint" />
+            <mxPoint x="490" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-26" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mnfsGZUZUVeKxlPdwvMC-11" target="mnfsGZUZUVeKxlPdwvMC-12" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="432" y="111" as="sourcePoint" />
+            <mxPoint x="432" y="169" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-27" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mnfsGZUZUVeKxlPdwvMC-9" target="mnfsGZUZUVeKxlPdwvMC-13" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="460" y="300" as="sourcePoint" />
+            <mxPoint x="542" y="339" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-29" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="mnfsGZUZUVeKxlPdwvMC-13" target="mnfsGZUZUVeKxlPdwvMC-14" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="468" y="410" as="sourcePoint" />
+            <mxPoint x="550" y="459" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnfsGZUZUVeKxlPdwvMC-30" value="Sistema de Gestão de Olimpíadas&amp;nbsp;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="340" y="10" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
