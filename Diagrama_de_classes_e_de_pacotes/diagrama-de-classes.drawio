@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 OPR/112.0.0.0" version="24.7.14">
+  <diagram name="Página-1" id="bf53C9G23fF2kvNKazVb">
+    <mxGraphModel dx="839" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VxoTqzgTG7HkdbEhhtUD-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Local&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&lt;span style=&quot;background-color: initial;&quot;&gt;nome: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+endereço: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+capacidade: Int&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+verificarDisponibilidade&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;(data, horario): boolean&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="120" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VxoTqzgTG7HkdbEhhtUD-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VxoTqzgTG7HkdbEhhtUD-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Competicao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;nomeModalidade: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&lt;span style=&quot;background-color: initial;&quot;&gt;data: Date&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+horario: Time&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+local: Local&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+listaAtletas: List&amp;lt;Atleta&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+cadastrarCompeticao()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+alocarLocal()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+registrarResultado()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="VxoTqzgTG7HkdbEhhtUD-4" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.006;exitY=0.465;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VxoTqzgTG7HkdbEhhtUD-3" target="VxoTqzgTG7HkdbEhhtUD-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="241" y="203" as="sourcePoint" />
+            <mxPoint x="260" y="199" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxoTqzgTG7HkdbEhhtUD-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Atleta&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+nome: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+idade: Int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+pais: País&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+listaCompeticoes: +List&amp;lt;Competicao&amp;gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inscreverCompeticao&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;(Competicao)&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="120" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="VxoTqzgTG7HkdbEhhtUD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VxoTqzgTG7HkdbEhhtUD-3" target="VxoTqzgTG7HkdbEhhtUD-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="185" as="sourcePoint" />
+            <mxPoint x="450" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxoTqzgTG7HkdbEhhtUD-8" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VxoTqzgTG7HkdbEhhtUD-7">
+          <mxGeometry x="0.4714" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxoTqzgTG7HkdbEhhtUD-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Resultado&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&lt;span style=&quot;background-color: initial;&quot;&gt;vencedor: Atleta&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+segundoLugar: Atleta&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+terceiroLugar: Atleta&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;registrarResultado(Atleta vencedor, Atleta segundo, Atleta terceiro)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="430" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VxoTqzgTG7HkdbEhhtUD-10" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VxoTqzgTG7HkdbEhhtUD-9" target="VxoTqzgTG7HkdbEhhtUD-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="360" as="sourcePoint" />
+            <mxPoint x="320" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxoTqzgTG7HkdbEhhtUD-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Pais&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&lt;span style=&quot;background-color: initial;&quot;&gt;nome: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+medalhasOuro: Int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+medalhasPrata: Int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+medalhasBronze: Int&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&lt;span style=&quot;background-color: initial;&quot;&gt;atualizarMedalhas()&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="470" y="440" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VxoTqzgTG7HkdbEhhtUD-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VxoTqzgTG7HkdbEhhtUD-11" target="VxoTqzgTG7HkdbEhhtUD-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="410" as="sourcePoint" />
+            <mxPoint x="530" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="440" />
+              <mxPoint x="520" y="360" />
+              <mxPoint x="720" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxoTqzgTG7HkdbEhhtUD-13" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VxoTqzgTG7HkdbEhhtUD-12">
+          <mxGeometry x="0.7576" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VxoTqzgTG7HkdbEhhtUD-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;RelatorioMedalhas&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&lt;span style=&quot;background-color: initial;&quot;&gt;dataGeracao: Date&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+medalhasPorPaís: Map&amp;lt;Pais, List&amp;lt;Medalha&amp;gt;&amp;gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+inscreverCompeticao&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;(Competicao)&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="650" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="VxoTqzgTG7HkdbEhhtUD-15" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VxoTqzgTG7HkdbEhhtUD-14" target="VxoTqzgTG7HkdbEhhtUD-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="670" y="510" as="sourcePoint" />
+            <mxPoint x="600" y="485" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
