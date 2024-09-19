@@ -1,7 +1,7 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=160&color=blue&reversal=false&section=header"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=160&color=6495ED&reversal=false&section=header"/> 
 
 
-# Resenha do artigo Thoughtworks Technology Radar
+# Trabalho 1 - SGO
 Este repositório contém o trabalho de diagramas, desenvolvida como parte das atividades da disciplina de Projeto de Software do quarto período do curso de Engenharia de Software da PUC Minas.
 
 ## Aluno
@@ -11,4 +11,4 @@ Este repositório contém o trabalho de diagramas, desenvolvida como parte das a
 * João Paulo Carneiro Aramuni 
 
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=160&color=blue&reversal=false&section=footer"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=160&color=6495ED&reversal=false&section=footer"/>
